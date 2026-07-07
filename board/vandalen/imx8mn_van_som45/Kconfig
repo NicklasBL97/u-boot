@@ -1,0 +1,18 @@
+if TARGET_IMX8MN_VAN_SOM45
+
+config SYS_BOARD
+	default "imx8mn_van_som45"
+
+config SYS_VENDOR
+	default "vandalen"
+
+config SYS_CONFIG_NAME
+	default "imx8mn_van_som45"
+
+config IMX8MN_LOW_DRIVE_MODE
+	bool "Enable the low drive mode of iMX8MN on EVK board"
+
+config IMX_CONFIG
+	default "board/vandalen/imx8mn_van_som45/imximage-8mn-ddr4.cfg"
+
+endif
