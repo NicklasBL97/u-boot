@@ -1,0 +1,6 @@
+i.MX8MN EVK BOARD
+M:	Nicklas Lind <tbd>
+S:	Maintained
+F:	board/vandalen/imx8mn_van_som45/
+F:	include/configs/imx8mn_van_som45.h
+F:	configs/imx8mn_van_som45_defconfig
